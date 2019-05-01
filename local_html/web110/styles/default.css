@@ -1,0 +1,115 @@
+html{
+  height: auto;
+}
+
+body {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/desk.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  word-spacing: 2px;
+  line-height: 1.6;
+  margin:auto 10%;
+}
+
+.center-items{
+  text-align: center;
+}
+
+#portrait {
+  width: 25%;
+}
+
+table, th, td {
+  text-align:left;
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(86,109,112);
+  width: 85%;
+}
+
+th {
+  background-color: black;
+}
+
+p, .titles, dt {
+  color: white;
+  font-weight: normal;
+}
+
+nav {
+  font-size: 18px;
+  font-weight: 900;
+  opacity: 2;
+}
+
+#nav {
+  margin-left: -185px;
+  width: 125%;
+  height: 75px;
+  color:rgba(255,255,255, 0.99);
+  background-color: rgba(0,0,0, 0.4);
+  text-align: center;
+  word-spacing: 30px;
+
+}
+
+nav a {
+  position: relative;
+  top: 25px;
+  color:rgba(255,255,255, 0.99);
+  text-decoration: none;
+}
+
+nav a:hover, a:active {
+  color:rgb(155, 151, 151);
+}
+
+a {
+  text-decoration: underline;
+  color: rgb(191, 78, 78);
+  word-spacing: 2px;
+}
+
+a:hover, a:active {
+  color:rgb(249, 135, 135);
+}
+
+header {
+  text-align: center;
+  font-size: 48px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 10px;
+}
+h2{
+  font-size: 24px;
+}
+main {
+
+}
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #565a60;
+}
+
+.validation {
+  margin: 0 auto;
+  padding-top: 20px;
+}

@@ -1,0 +1,25 @@
+.images-table {
+  display: table;
+  width: 62.50em;
+  height: 1em;
+  margin: auto;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.images {
+  display: table-cell;
+  float: left;
+  margin: 30px 30px;
+  box-shadow: 5px 5px 15px white;
+}
+
+.sketch-images {
+  width: auto;
+  height: 340px;
+  transition: transform 0.25s ease;
+}
+.sketch-images:hover {
+  transform:scale(1.5);
+    transform:scale(1.5);
+}
