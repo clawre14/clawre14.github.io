@@ -254,15 +254,11 @@ footer {
   position: absolute;
   font-size: 48px;
   color: white;
-  left: px;
-  bottom: px;
 }
 #terraforming-services{
   position: absolute;
   font-size: 48px;
   color: white;
-  right: px;
-  bottom: px;
 }
 .scale-shop-image {
   width: 80%;
@@ -454,6 +450,14 @@ footer {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+.planetDescription{
+  margin-left: 320px;
+  margin-right:320px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 2em;
+  padding-top: 100px;
 }
 
 /*aboutus.html------------------------------------*/
