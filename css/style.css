@@ -301,6 +301,9 @@ footer {
   position: relative;
   margin: auto;
 }
+.planet-hero{
+  max-width: 1024px;
+}
 .planet-page-title{
   display: block;
   position: absolute;
@@ -370,6 +373,7 @@ footer {
   margin: auto;
 }
 .planet-gallery-images{
+  max-width: 1200px;
 
   /* Set left edge of inner element to 50% of the parent element */
   margin-left: 50%;
