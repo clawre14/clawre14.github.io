@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background-image: url(../images/2.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+a{
+  color:white;
+}
+
+/*header---------------------------------------------------*/
+header {
+  padding: 100px 0px 20px;
+}
+.planet-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  border: none;
+  outline: 0;
+}
+h1 {
+  text-align: center;
+}
+#logo{
+  position: relative;
+  bottom: 200px;
+  font-size: 48px;
+  margin-bottom: -80px;
+}
+
+/*navagation------------------------------------------*/
+/*navagation element*/
+.nav {
+  font-size: 20px;
+  padding: 50px 0px 100px;
+}
+.nav ul {
+  text-align: center;
+}
+/*list items*/
+.nav ul li {
+  display: inline-block;
+  padding-right: 15px;
+}
+/*links in list*/
+.nav a:link {
+  display: block;
+  text-decoration: none;
+}
+.nav a:hover, a:active {
+  color: rgb(153,153,153);
+  cursor: pointer;
+
+}
+a.selected:link, a.selected:hover {
+  color: rgb(153,153,153);
+  cursor: pointer;
+}
+/*drop down container*/
+.shop-dropdown {
+  float: left;
+  overflow: hidden;
+}
+/*shop button styles*/
+.shop-dropdown .shopbutton {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+/*hover effect on links*/
+.shop-dropdown:hover .shopbutton {
+  color: rgb(153,153,153);
+  cursor: pointer;
+}
+/*dropdown container*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d2691e;
+  min-width: 160px;
+  z-index: 1;
+}
+/*links in container*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*hover on links in shop button*/
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/*show container on hover*/
+.shop-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*move shop button*/
+#shop-placement{
+  position: relative;
+  display: inline-block;
+  top: 5px;
+}
+button{
+  padding: 0px 0px;
+}
+
+/*footer-------------------------------------------------------*/
+footer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/*follow us*/
+.follow-us-div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+/*follow us items*/
+.follow-us-links {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+}
+/*copyright*/
+.copyright {
+  text-align: center;
+  padding-top: 15px
+}
+#disclaimer {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 15px
+}
+.validation {
+  margin: 0px;
+  text-align: right;
+}
+
+/*home.html-------------------------------------*/
+/*hero*/
+.slideFade {
+  display: none;
+}
+.hero img{
+  vertical-align: middle;
+}
+/* Slideshow container */
+.hero {
+  box-sizing: border-box;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.slideName {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.slideNumber {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.hero .active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*shop.html-----------------------------------------*/
+/*shop page images*/
+.shop-hero {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+/*shop page images*/
+.shop-block {
+  float:left;
+  width: 50%;
+}
+.shop-block-container {
+  overflow: auto;
+}
+#planet-shop{
+  position: absolute;
+  font-size: 48px;
+  color: white;
+  left: px;
+  bottom: px;
+}
+#terraforming-services{
+  position: absolute;
+  font-size: 48px;
+  color: white;
+  right: px;
+  bottom: px;
+}
+.scale-shop-image {
+  width: 80%;
+}
+
+/*planets.html-------------------------------------*/
+/*shop table*/
+.planet-items {
+  display: table;
+  width: 62.50em;
+  height: 1em;
+  margin: auto;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+/*shop items*/
+.item {
+  display: table-cell;
+  float: left;
+  margin: 30px 30px;
+  box-shadow: 5px 5px 15px white;
+  transition: transform 0.25s ease;
+}
+/*shop item image size*/
+.planet-images {
+  width: 250px;
+  height: 250px;
+}
+.item:hover {
+  transform:scale(1.1);
+  box-shadow: 10px 10px 15px white;
+}
+.item:active{
+  box-shadow: 10px 10px 15px red;
+}
+
+/*Planet pages-------------------------------------*/
+.product-display-container{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.planet-page-title{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 100px;
+  color: white;
+}
+.location{
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.planet-page-pricing{
+  display: inline-block;
+  font-size: 48px;
+  color: white;
+  padding-top: 20px;
+}
+.specs {
+	display: table;
+	margin: 0 auto;
+  padding-top: 30px;
+}
+.spec-list {
+	list-style: none;
+	padding-top: 20px;
+}
+.spec-list li {
+	display: inline;
+  float: left;
+  border-collapse: collapse;
+  display: table-column;
+  border-right: solid 1px white;
+  border-left: solid 1px white;
+}
+.spec-list-items{
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding: 0px 20px;
+  font-size: 24px;
+}
+.spec-names{
+  font-size: 16px;
+  padding-top: 5px;
+}
+.additional-specs{
+  display:block;
+  margin-left: 25%;
+  padding-top: 70px;
+  text-align:left;
+}
+.additional-specs ul li{
+  padding-top: 10px;
+  font-size: 20px;
+}
+/* Slideshow container */
+.planetSlideFade{
+  display: none;
+}
+.planet-gallery {
+  box-sizing: border-box;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 105%;
+  left: 32%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.planetSlideName {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.planetSlideNumber {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*aboutus.html------------------------------------*/
+/*about us paragraph div*/
+.aboutus-p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+/*about us portrait*/
+.portrait {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+/*contact us------------------------------------------*/
+/*contact us container*/
+.contact-container {
+  box-sizing: border-box;
+  display: block;
+  font-size: 20px;
+  font-family: inherit;
+  width: 60%;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  height: 3em;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.half-box {
+  padding: 20px 10px;
+  width: 45%;
+  display: inline-block;
+  float: left;
+}
+#full-box{
+  width: 92%;
+  padding-left: 10px;
+}
+label{
+  float: left;
+}
+.submit {
+  font-size: 20px;
+  width: 100px
+}
+  textarea {
+  width: 100%;
+}
+
+/*media queries-------------------------------------*/
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 760px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
