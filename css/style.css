@@ -65,7 +65,7 @@ h1 {
   cursor: pointer;
 
 }
-a.selected:link, a.selected:hover {
+ a.selected:hover {
   color: rgb(153,153,153);
   cursor: pointer;
 }
