@@ -465,8 +465,8 @@ footer {
   .prev, .next,.text {font-size: 11px}
 }
 .planetDescription{
-  margin-left: 320px;
-  margin-right:320px;
+  margin-left: 15%;
+  margin-right:15%;
   text-align: left;
   font-size: 20px;
   line-height: 2em;
